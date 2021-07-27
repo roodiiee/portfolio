@@ -1,6 +1,6 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 /* *************************BASICS CSS************************* */
 :root{
@@ -8,14 +8,14 @@
     --dark-gray: #6B7280;
     --off-white: #E5E7EB;
 }
+
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}
-body{
     font-family: 'Montserrat', sans-serif;
 }
+
 
 /* **************************NAVIGATION BAR************************** */
 .navigation{
@@ -57,13 +57,18 @@ body{
     padding: 3rem 0rem;
 }
 .main-heading{
+    font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
     font-size: xxx-large;
     font-weight: bolder;
 }
 #center-heading{
-    
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 1rem 0rem 1rem 1rem;
+    font-size: x-large;
+    font-weight: 400;
 }
+ 
 #image{
     display: block;
     margin: auto;
@@ -74,8 +79,34 @@ body{
 /* *************************MAIN SECTION************************* */
 
 .wr-area{
-
+    margin: 1rem 1rem;
+    text-align: center;
 }
 .para{
+    font-family: 'Montserrat', sans-serif;
+}
+/* *****************FOOTER***************** */
 
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+    margin: 2rem 0rem 0rem 0rem;
+}
+.footer .link{
+    color: white;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
+.footer-header{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.footer ul li img{
+    margin-top: 1.5rem;
+    width: 40px;
+    height: 40px;
 }
