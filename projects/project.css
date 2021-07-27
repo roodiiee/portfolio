@@ -15,6 +15,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+/* **********NAVIGATION*********** */
 .navigation{
     background-color: var(--primary-color);
     color: white;
@@ -25,9 +26,7 @@ body{
     font-weight: bolder;
     font-size: 2rem;
 }
-.link{
-    text-decoration: none;
-}
+
 .navigation .nav-pills{
     text-align: right;
 }
@@ -40,6 +39,11 @@ body{
     font-weight: bold;
 }
 
+/* **********lINK*************** */
+.link{
+    text-decoration: none;
+}
+/* *************LIST*********** */
 .list-non-bullet{
     list-style: none;
 }
@@ -47,6 +51,7 @@ body{
     display: inline;
     padding: 0rem 0.5rem;
 }
+/* *************HEADER*********** */
 .hero{
     padding: 2rem;
     text-align: center;
@@ -84,7 +89,7 @@ body{
     padding: 2rem;
 }
 
-
+/* **********FOOTER***************** */
 .footer{
     background-color: var(--primary-color);
     padding: 2rem 0rem;
