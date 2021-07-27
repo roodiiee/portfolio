@@ -6,6 +6,8 @@
     --primary-color: #8B5CF6;
     --dark-gray: #6B7280;
     --off-white: #E5E7EB;
+    --main-heading: 'Montserrat', sans-serif;
+    --sub-heading: 'Ubuntu', sans-serif;
 }
 *{
     margin: 0px;
@@ -13,7 +15,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--main-heading)
 }
 /* **********NAVIGATION*********** */
 .navigation{
@@ -104,7 +106,7 @@ body{
     padding-inline-start: 0px;
 }
 .footer-header{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: var(--sub-heading);
     font-weight: bold;
 }
 .footer ul li img{
@@ -115,4 +117,7 @@ body{
 
 .link-active{
     font-weight: bold;
+}
+.para{
+    padding: 2rem 0rem;
 }
