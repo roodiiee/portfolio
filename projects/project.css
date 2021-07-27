@@ -8,6 +8,7 @@
     --off-white: #E5E7EB;
     --main-heading: 'Montserrat', sans-serif;
     --sub-heading: 'Ubuntu', sans-serif;
+    --background-color: #FDE68A;
 }
 *{
     margin: 0px;
@@ -120,4 +121,7 @@ body{
 }
 .para{
     padding: 2rem 0rem;
+}
+.background{
+    background-color: var(--background-color);
 }
