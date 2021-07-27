@@ -1,0 +1,104 @@
+:root{
+    --primary-color: #6366F1;
+    --dark-gray: #6B7280;
+    --off-white: #E5E7EB;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem ;
+    border-bottom-left-radius: 1rem;
+}
+.navigation .nav-brand{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.navigation .nav-pills{
+    text-align: right;
+}
+.navigation .link{
+    color: white;
+}
+.navigation .link-active{
+    font-weight: bold;
+}
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+
+.list-non-bullet{
+    list-style: none;
+
+}
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.hero{
+    padding: 2rem;
+    text-align: center;
+}
+.hero .hero-image{
+    max-width: 250px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+
+#section-heading{
+    text-align: center;
+    font-size: xxx-large;
+}
+.container{
+    margin-top: 3rem;
+}
+.center-container{
+    text-align: center;
+    padding: 2rem 2rem;
+}
+.list-item{
+    list-style: none;
+}
+.container .center-container .list-item li{
+    padding: 3rem;
+}
+
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+.footer .link{
+    color: white;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
+.footer-header{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.footer ul li img{
+    margin-top: 1.5rem;
+    width: 40px;
+    height: 40px;
+}
