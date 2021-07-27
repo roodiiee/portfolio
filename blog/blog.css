@@ -1,0 +1,81 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap'); */
+
+/* *************************BASICS CSS************************* */
+:root{
+    --primary-color: #6366F1;
+    --dark-gray: #6B7280;
+    --off-white: #E5E7EB;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* **************************NAVIGATION BAR************************** */
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem ;
+    border-bottom-left-radius: 1rem;
+}
+.navigation .nav-brand{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.navigation .nav-pills{
+    text-align: right;
+}
+.navigation .link{
+    color: white;
+}
+.navigation .link-active{
+    font-weight: bold;
+}
+/* *******************************LIST******************************* */
+.list-non-bullet{
+    list-style: none;
+
+}
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+/* ******************************LINK****************************** */
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+/* **************************SECTION************************** */
+/************ GENERAL SECTION*********** */
+.section-image{
+    padding: 3rem 0rem;
+}
+.main-heading{
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: bolder;
+}
+#center-heading{
+    
+}
+#image{
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 1rem 0rem;
+    max-width: 300px;
+}
+/* *************************MAIN SECTION************************* */
+
+.wr-area{
+
+}
+.para{
+
+}
