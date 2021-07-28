@@ -57,3 +57,48 @@
     margin: auto;
 
 }
+.first-section{
+    font-size: 1.5rem;
+    padding: 1rem 1rem;
+    font-family: var(--main-heading);
+}
+.common-section{
+    font-family: var(--sub-heading);
+    padding: 1rem 1rem;
+}
+.first article h2,p{
+    padding: 1rem 0rem;
+}
+
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+.footer .link{
+    color: white;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
+.footer-header{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.footer ul li img{
+    margin-top: 1.5rem;
+    width: 40px;
+    height: 40px;
+}
+.link-active{
+    font-weight: bold;
+}
+.hero-image-one{
+    width: 60%;
+    max-height: 50vh;
+    display: block;
+    margin: auto;
+}
